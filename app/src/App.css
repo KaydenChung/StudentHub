@@ -1,0 +1,48 @@
+/* App Styling */
+
+body {
+  margin: 0;
+  display: flex;
+  font-family: 'Arial', sans-serif;
+}
+
+.main-content {
+  margin-left: 600px;
+  padding: 20px;
+  background-color: #f3f4f6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: red;
+}

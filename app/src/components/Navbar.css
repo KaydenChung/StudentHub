@@ -1,0 +1,36 @@
+/* Navbar Styling */
+
+.sidebar {
+    height: 100vh;
+    width: 200px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar-header {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: blue;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.icon {
+    margin-right: 10px;
+}
